@@ -13,6 +13,13 @@ li {
 ul {
   padding: 0 !important;
 }
+
+.temp {
+  text-decoration: none;
+  color: black;
+  font-family: "Yeseva One", cursive;
+}
+
 .container {
   display: block;
   margin: 0 auto;
@@ -35,8 +42,8 @@ ul {
   top: -34px;
   font-size: 40px;
 }
-a {
-  text-decoration: none;
-  color: black;
-  font-family: "Yeseva One", cursive;
+
+.bottom {
+  padding: 10px;
+  text-align: center;
 }
