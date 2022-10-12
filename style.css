@@ -43,7 +43,7 @@ ul {
   font-size: 40px;
 }
 
-.bottom {
-  padding: 10px;
-  text-align: center;
+small {
+  font-size: 80%;
+  font-weight: 400;
 }
