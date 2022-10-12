@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li id="city">Summerville, South Carolina</li>
+            <li id="date">Friday, September 16</li>
+            <li id="weather">Partly, cloudy</li>
+          </ul>
+
+          <div class="float-left">
+              <span class="temperature" id="temperature">80</span>
+              <span class="units">
+                <a href="#" id="celsius-link">°C</a>              </span>          
+        </div>
+      </div>
+        <div class="col">
+          <form class="search-form" id="search-form">
+            <input 
+              type="search" 
+              placeholder="Search by location" 
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"/>
+            <input
+              type="submit"
+              value="Search"
+            />
+          </form>
+          </form>
+          <br />
+          <img src="images/partly cloudy.png" />
+        </div>
+      </div>
+     
+        <div class="weekday">
+          <div class="row">
+            <div class="col">
+              <strong>Saturday</strong><br />
+              ☀️<br />
+              84°
+            </div>
+            <div class="col">
+              <strong>Sunday</strong> <br />
+              🌦️<br />
+              84°
+            </div>
+            <div class="col">
+              <strong>Monday</strong><br />
+              ☀️<br />
+              83°
+            </div>
+            <div class="col">
+              <strong>Tuesday</strong><br />
+              ☀️<br />
+              90°
+            </div>
+          </div>
+        </div>
+      
+ 
+    <script src="src/index.js"></script>
+  </body>
+</html>
