@@ -46,4 +46,8 @@ ul {
 small {
   font-size: 80%;
   font-weight: 400;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
 }
